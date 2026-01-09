@@ -8,7 +8,6 @@
 body {
   background-color: rgba(255, 255, 255, 1);
 }
-
 .container,
 .notes,
 .second-brain,
@@ -30,7 +29,6 @@ body {
   border: none;
   cursor: pointer;
 }
-
 .banner .banner-container .btn-2 {
   width: 240px;
   height: 36px;
@@ -43,7 +41,6 @@ body {
   border: none;
   cursor: pointer;
 }
-
 .btn,
 .btn-2,
 .btn-3 {
@@ -52,7 +49,6 @@ body {
   gap: 8px;
   justify-content: center;
 }
-
 .btn-3 {
   background: none;
   color: rgba(255, 255, 255, 1);
@@ -60,7 +56,6 @@ body {
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 1);
 }
-
 .btn img,
 .btn-2 img,
 .btn-3 img {
@@ -72,9 +67,8 @@ body {
 /* Hover effects for buttons */
 .btn:hover {
   background-color: #0e793d;
-
 }
-.btn-3:hover{
+.btn-3:hover {
   background-color: #242424;
 }
 
@@ -87,7 +81,6 @@ nav {
   align-items: center;
   padding: 16px 120px;
 }
-
 nav .logo img {
   width: 139px;
   height: 60px;
@@ -114,7 +107,6 @@ nav ul a {
   background-size: cover;
   background-position: center;
 }
-
 .banner-container {
   display: flex;
   flex-direction: column;
@@ -123,13 +115,11 @@ nav ul a {
   gap: 24px;
   padding: 115px 120px;
 }
-
 .banner-container .banner-buttons .banner-button-container {
   display: flex;
   gap: 16px;
   align-items: center;
 }
-
 .banner .banner-container .banner-heading1 {
   color: rgba(255, 255, 255, 1);
   font-size: 72px;
@@ -138,19 +128,16 @@ nav ul a {
   color: #30b868;
   font-size: 72px;
 }
-
 .banner .banner-container p {
   font-size: 18px;
   color: rgba(255, 255, 255, 1);
 }
 
 /* Notes section */
-
 .notes-text {
   text-align: center;
   margin: 44px 0;
 }
-
 .notes-heading h1 {
   font-size: 48px;
   color: #001931;
@@ -166,7 +153,6 @@ nav ul a {
   align-items: center;
   gap: 24px;
 }
-
 .card_items {
   width: 322px;
   height: 300px;
@@ -178,7 +164,6 @@ nav ul a {
   justify-content: center;
   gap: 16px;
 }
-
 .card_items .note-image {
   height: 60px;
   width: 60px;
@@ -202,25 +187,21 @@ nav ul a {
 }
 
 /* Second-Brain Section  */
-
 .second-brain-container {
   display: flex;
   align-items: center;
   padding: 120px;
   gap: 60px;
 }
-
 .second-brain-container .knowledge-image-container img {
   width: 600px;
   height: 600px;
 }
-
 .second-brain-right-container {
   margin: 120px 0;
   width: 700px;
   height: 397px;
 }
-
 .second-brain-right-upper-container .first-title-paragraph {
   color: #30b868;
   font-size: 16px;
@@ -229,7 +210,6 @@ nav ul a {
   margin-bottom: 16px;
   text-align: left;
 }
-
 .second-brain-right-upper-container .second-title-paragraph {
   font-size: 48px;
   color: #001931;
@@ -237,7 +217,6 @@ nav ul a {
   text-align: left;
   margin-bottom: 16px;
 }
-
 .second-brain-right-upper-container .third-title-paragraph {
   color: #627382;
   font-size: 16px;
@@ -245,7 +224,6 @@ nav ul a {
   text-align: left;
   margin-bottom: 40px;
 }
-
 .second-brain-right-lower-container ul li img {
   width: 24px;
   height: 24px;
@@ -271,20 +249,17 @@ nav ul a {
   align-items: center;
   justify-content: center;
 }
-
 .early-access-section .early-access-text h2 {
   color: #001931;
   font-size: 40px;
   margin-bottom: 16px;
 }
-
 .early-access-section .early-access-text p {
   font-size: 16px;
   color: #627382;
   line-height: 24px;
   margin-bottom: 24px;
 }
-
 .early-access-section .early-access-button-info p {
   font-size: 16px;
   color: #627382;
@@ -298,7 +273,6 @@ footer {
   width: 100%;
   max-width: 1600px;
 }
-
 .footer_container {
   display: flex;
   flex-direction: column;
@@ -307,7 +281,6 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
 .footer_container .footer_upper-section {
   display: flex;
   align-items: center;
@@ -315,7 +288,6 @@ footer {
   border-bottom: 1px solid #313539;
   padding-bottom: 30px;
 }
-
 .footer_container .footer_upper-section .footer_logo {
   width: 350px;
   display: flex;
@@ -327,7 +299,6 @@ footer {
   height: 60px;
   margin: 0 auto;
 }
-
 footer .footer_container .footer_upper-section .social {
   width: 220px;
   height: 64px;
@@ -347,18 +318,15 @@ footer .footer_container .footer_upper-section .social ul {
   list-style: none;
   gap: 16px;
 }
-
 .footer_container .footer_upper-section .social ul li {
   background-color: #ffffff;
   font-size: 20px;
   border-radius: 50%;
   cursor: pointer;
 }
-
 .footer_container .footer-lower-section {
   text-align: center;
 }
-
 .footer-copyright {
   color: #fafafa;
   font-size: 16px;
