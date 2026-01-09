@@ -271,7 +271,6 @@ nav ul a {
 footer {
   background-color: #001931;
   width: 100%;
-  max-width: 1600px;
 }
 .footer_container {
   display: flex;
