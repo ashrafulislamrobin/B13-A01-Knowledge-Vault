@@ -1,3 +1,5 @@
+/* Sharing styles */
+
 * {
   padding: 0;
   margin: 0;
@@ -65,6 +67,15 @@ body {
   width: 20px;
   height: 20px;
   display: block;
+}
+
+/* Hover effects for buttons */
+.btn:hover {
+  background-color: #0e793d;
+
+}
+.btn-3:hover{
+  background-color: #242424;
 }
 
 /* Navbar Style*/
