@@ -8,7 +8,8 @@ body {
 }
 
 .container,
-.notes {
+.notes,
+.second-brain {
   width: 86%;
   max-width: 1360px;
   margin: 0 auto;
@@ -185,4 +186,63 @@ nav ul a {
   color: #627382;
   font-size: 16px;
   line-height: 20px;
+}
+
+/* Second-Brain Section  */
+
+.second-brain-container {
+  display: flex;
+  align-items: center;
+  padding: 120px;
+  gap: 60px;
+}
+
+.second-brain-container .knowledge-image-container img {
+  width: 600px;
+  height: 600px;
+}
+
+.second-brain-right-container {
+  margin: 120px 0;
+  width: 700px;
+  height: 397px;
+}
+
+.second-brain-right-upper-container .first-title-paragraph {
+  color: #30b868;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.second-brain-right-upper-container .second-title-paragraph {
+  font-size: 48px;
+  color: #001931;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.second-brain-right-upper-container .third-title-paragraph {
+  color: #627382;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.second-brain-right-lower-container ul li img {
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+}
+.second-brain-right-container .second-brain-right-lower-container ul li {
+  color: #001931;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
 }
